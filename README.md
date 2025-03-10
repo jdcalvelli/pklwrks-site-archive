@@ -1,23 +1,17 @@
-# picklery
+# pklwrks site archive
 
-pklwrks LLC website monorepo
+i've experimented a lot on what i want my company website to look like, so i'm keeping another repository just to track all the old versions too
 
-### for all environments
+### v1
 
-requires a .env file at the root of the directory with definitions for:
+frontend - typescript with vue
 
-- NODE_ENV
-- PORT
+backend - rust with actix
 
-### for development environment
+### v2
 
-ensure you have installed:
+frontend - typescript with mithril 
 
-- nodejs v20.15.1
-- rust v1.79.0
+backend - apache2 config w reverse proxy on the pklwrks.dev site
 
-### for production
-
-currently using dockerfile and docker-compose.yml to build production image
-
-current assumption is that this application sits behind an nginx proxy, hence external network and lack of direct port mapping
+### v3
